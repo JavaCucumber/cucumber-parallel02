@@ -55,8 +55,8 @@ jobs:
           #~ folder: ./target/cucumber-report/cucumber.html
 
     - name: Report
-        uses: JamesIves/github-pages-deploy-action@4.1.5
-        with:
-            branch: main
-            folder: ./target/courgette-report/    
+      uses: JamesIves/github-pages-deploy-action@4.1.5
+      with:
+          branch: main
+          folder: ./target/courgette-report/    
      
