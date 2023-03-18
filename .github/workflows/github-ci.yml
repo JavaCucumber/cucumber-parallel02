@@ -41,6 +41,14 @@ jobs:
          branch: gh-pages
          access-token: ${{ secrets.GITHUB_TOKEN }}
          path: "target/cucumber-report/cucumber.json"
+         
+         
+    - name: Deploy to GitHub Pages2
+      uses: deblockt/cucumber-report-annotations-action@v1.7
+      with:
+         branch: gh-pages
+         access-token: ${{ secrets.GITHUB_TOKEN }}
+         path: "target/cucumber-report"
       #~ uses: JamesIves/github-pages-deploy-action@v4.4.1
       #~ with:
           #~ branch: gh-pages
