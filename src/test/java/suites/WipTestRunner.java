@@ -11,7 +11,7 @@ import courgette.api.junit.Courgette;
 
 @RunWith(Courgette.class)
 @CourgetteOptions(
-        threads = 2,
+        threads = 1,
         runLevel = CourgetteRunLevel.FEATURE,
         rerunFailedScenarios = false,
         testOutput = CourgetteTestOutput.CONSOLE,
