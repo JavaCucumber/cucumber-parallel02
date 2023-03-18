@@ -34,10 +34,16 @@ jobs:
       with:
           access-token: ${{ secrets.GITHUB_TOKEN }}
           path: "target/cucumber-report/cucumber-report.json"   
+          
+    - name: Report
+        uses: JamesIves/github-pages-deploy-action@4.1.5
+        with:
+        branch: main
+        folder: ./target/cucumber-report
 
-    - name: GH Pages
-      uses: JamesIves/github-pages-deploy-action@v4.4.1
-      with:
-          branch: gh_pages
-          folder: target/cucumber-report/          
+    #~ - name: GH Pages
+      #~ uses: JamesIves/github-pages-deploy-action@v4.4.1
+      #~ with:
+          #~ branch: gh_pages
+          #~ folder: ./target/cucumber-report/          
      
