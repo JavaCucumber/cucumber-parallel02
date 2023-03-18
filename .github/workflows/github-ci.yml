@@ -36,11 +36,9 @@ jobs:
           path: "target/cucumber-report/cucumber-report.json"   
 
     - name: GH Pages
-      uses: peaceiris/actions-gh-pages@v3.7.3
+      uses: JamesIves/github-pages-deploy-action@v4.4.1
       with:
-          external_repository: damianszczepanik/damianszczepanik.github.io
-          access-token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: main
+          branch: gh_pages
           publish_dir: target/cucumber-report/cucumber-report.json
           
      
