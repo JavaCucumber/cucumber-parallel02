@@ -54,9 +54,9 @@ jobs:
           #~ branch: gh-pages
           #~ folder: ./target/cucumber-report/cucumber.html
 
-    #~ - name: GH Pages
-      #~ uses: JamesIves/github-pages-deploy-action@v4.4.1
-      #~ with:
-          #~ branch: gh_pages
-          #~ folder: ./target/cucumber-report/          
+    - name: Report
+        uses: JamesIves/github-pages-deploy-action@4.1.5
+        with:
+            branch: main
+            folder: ./target/courgette-report/    
      
