@@ -33,30 +33,30 @@ jobs:
       uses: deblockt/cucumber-report-annotations-action@v1.11
       with:
           access-token: ${{ secrets.GITHUB_TOKEN }}
-          path: "target/cucumber-report/cucumber-report.json"   
+          path: "target/cucumber-report/cucumber-report.html"   
           
-    - name: Deploy to GitHub Pages
-      uses: deblockt/cucumber-report-annotations-action@v1.7
-      with:
-         branch: gh-pages
-         access-token: ${{ secrets.GITHUB_TOKEN }}
-         path: "target/cucumber-report/cucumber.json"
+    #~ - name: Deploy to GitHub Pages
+      #~ uses: deblockt/cucumber-report-annotations-action@v1.7
+      #~ with:
+         #~ branch: gh-pages
+         #~ access-token: ${{ secrets.GITHUB_TOKEN }}
+         #~ path: "target/cucumber-report/cucumber.json"
          
          
-    - name: Deploy to GitHub Pages2
-      uses: deblockt/cucumber-report-annotations-action@v1.7
-      with:
-         branch: gh-pages
-         access-token: ${{ secrets.GITHUB_TOKEN }}
-         path: "target/cucumber-report/cucumber.html"
+    #~ - name: Deploy to GitHub Pages2
+      #~ uses: deblockt/cucumber-report-annotations-action@v1.7
+      #~ with:
+         #~ branch: gh-pages
+         #~ access-token: ${{ secrets.GITHUB_TOKEN }}
+         #~ path: "target/cucumber-report/cucumber.html"
       #~ uses: JamesIves/github-pages-deploy-action@v4.4.1
       #~ with:
           #~ branch: gh-pages
           #~ folder: ./target/cucumber-report/cucumber.html
 
-    - name: Report
-      uses: JamesIves/github-pages-deploy-action@4.1.5
-      with:
-          branch: main
-          folder: ./target/courgette-report/    
+    #~ - name: Report
+      #~ uses: JamesIves/github-pages-deploy-action@4.1.5
+      #~ with:
+          #~ branch: main
+          #~ folder: ./target/courgette-report/    
      
