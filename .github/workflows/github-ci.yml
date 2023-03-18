@@ -33,4 +33,12 @@ jobs:
       uses: deblockt/cucumber-report-annotations-action@v1.11
       with:
           access-token: ${{ secrets.GITHUB_TOKEN }}
-          path: "target/cucumber-report/cucumber-report.json"    
+          path: "target/cucumber-report/cucumber-report.json"   
+
+    - name: GH Pages
+      uses: peaceiris/actions-gh-pages@v3.7.3
+      with:
+          external_repository: damianszczepanik/damianszczepanik.github.io
+          personal_token: ${{ secrets.GH_PAGES_UPLOAD }}
+          publish_branch: main
+          publish_dir: target/cucumber-report/cucumber-report.json

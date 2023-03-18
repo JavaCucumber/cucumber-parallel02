@@ -1,9 +1,6 @@
 package appPages;
 
 import org.openqa.selenium.WebDriver;
-
-import com.github.javafaker.Faker;
-
 import appBase.ScenarioContext;
 
 public class PageManager {
@@ -11,9 +8,7 @@ public class PageManager {
 	public WebDriver driver;
 	public GoogleHome homePage;
 	public SearchResult resultPage;
-    public KarmaPage  karmaPage;
-    public KarmaDashboardPage karmaDashboardPage;
-    public KarmaEditProfilePage editProfilePage;
+   
     public ScenarioContext scenarioContext;
     
     
@@ -34,21 +29,7 @@ public class PageManager {
 		return resultPage;
 	}
 	
-	public KarmaPage getKarmaPage() {
-		karmaPage = new KarmaPage(driver);
-		return karmaPage;
-	}
 	
-	public KarmaDashboardPage getkarmaDashboardPage() {
-		
-		karmaDashboardPage =new KarmaDashboardPage (driver);
-		return karmaDashboardPage ;
-	}
-	
-	public KarmaEditProfilePage getEditProfilePage() {
-		editProfilePage = new KarmaEditProfilePage (driver);
-		return editProfilePage;
-	}
 	
 	public ScenarioContext getScenarioContext() {
 		return scenarioContext;

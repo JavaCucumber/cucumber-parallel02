@@ -1,4 +1,4 @@
-@demo
+@google
 Feature: Feature 1
   I want to use this template for my feature file
 
@@ -11,4 +11,4 @@ Feature: Feature 1
   @demo
  Scenario: fail tests
     Given user navigates "https://careerkarma.com/" to url
-    When clicks on signin link
+    

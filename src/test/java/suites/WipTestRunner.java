@@ -21,7 +21,7 @@ import courgette.api.junit.Courgette;
         cucumberOptions = @CucumberOptions(
                 features = "src/test/resources/features",
                 glue = "appSteps",
-                tags = {"@karma_wip", "not @excluded"},
+                tags = {"@google", "not @excluded"},
                 publish = true,
                 plugin = {
                         "pretty",
