@@ -36,10 +36,15 @@ jobs:
           path: "target/cucumber-report/cucumber-report.json"   
           
     - name: Deploy to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@v4.4.1
+      uses: deblockt/cucumber-report-annotations-action@v1.7
       with:
-          branch: gh-pages
-          folder: ./target/cucumber-report/cucumber.html
+         branch: gh-pages
+         access-token: ${{ secrets.GITHUB_TOKEN }}
+         path: "target/cucumber-report/cucumber.json"
+      #~ uses: JamesIves/github-pages-deploy-action@v4.4.1
+      #~ with:
+          #~ branch: gh-pages
+          #~ folder: ./target/cucumber-report/cucumber.html
 
     #~ - name: GH Pages
       #~ uses: JamesIves/github-pages-deploy-action@v4.4.1
