@@ -27,4 +27,4 @@ jobs:
       if: success() || failure()
       with:
           name: Serenity Report               # Name of the folder
-          path: target/cucumber-reports/           # Path to test results
+          path: target/cucumber-report/           # Path to test results
