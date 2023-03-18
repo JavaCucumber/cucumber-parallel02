@@ -39,7 +39,7 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@v4.4.1
       with:
           branch: gh-pages
-          folder: target/cucumber-report
+          folder: ./target/cucumber-report/cucumber.html
 
     #~ - name: GH Pages
       #~ uses: JamesIves/github-pages-deploy-action@v4.4.1
