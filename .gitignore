@@ -1,6 +1,6 @@
 #project settings file
 *.settings
-target/*
+#target/*
 *.project
 *.vscode
 
