@@ -28,3 +28,9 @@ jobs:
       with:
           name: Serenity Report               # Name of the folder
           path: target/cucumber-report/           # Path to test results
+    
+    - name: Cucumber Report
+      uses: deblockt/cucumber-report-annotations-action@v1.11
+      with:
+          access-token: ${{ secrets.GITHUB_TOKEN }}
+          path: "target/cucumber-report/cucumber-report.json"    
