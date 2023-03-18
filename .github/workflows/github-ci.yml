@@ -39,6 +39,5 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@v4.4.1
       with:
           branch: gh_pages
-          publish_dir: target/cucumber-report/cucumber-report.json
-          
+          folder: target/cucumber-report/          
      

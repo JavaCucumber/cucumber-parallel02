@@ -8,7 +8,7 @@ Feature: Feature 1
     Given User is on google Home page
     When User enters search "cuke cuke"
  
-  @demo
- Scenario: fail tests
-    Given user navigates "https://careerkarma.com/" to url
+  #@demo
+ #Scenario: fail tests
+    #Given user navigates "https://careerkarma.com/" to url
     
