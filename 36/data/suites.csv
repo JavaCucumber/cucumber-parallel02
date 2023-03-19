@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Mar 19 08:26:21 GMT 2023","Sun Mar 19 08:26:35 GMT 2023","14393","","Feature 1","","Google 1 tests","","Google 1 tests","  I want to use this template for my feature file"
+"passed","Sun Mar 19 08:26:21 GMT 2023","Sun Mar 19 08:26:35 GMT 2023","14230","","Feature 2","","Google 2 tests","","Google 2 tests","  I want to use this template for my feature file"
+"passed","Sun Mar 19 08:26:38 GMT 2023","Sun Mar 19 08:26:46 GMT 2023","8744","","Feature 3","","Google 3 tests","","Google 3 tests","  I want to use this template for my feature file"
