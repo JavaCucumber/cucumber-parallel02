@@ -10,4 +10,4 @@ Feature: Feature 3
  @google
   Scenario: Google 4 tests
     Given User is on google Home page
-    When User enters search "github tutorials"
+    When User enters search "github for testers"
