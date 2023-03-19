@@ -4,7 +4,7 @@ Feature: Feature 1
 
 
  @demo   
- Scenario: Google 2 tests
+ Scenario: Google 1 tests
     Given User is on google Home page
     When User enters search "cuke cuke"
  
