@@ -1,14 +1,14 @@
 [ {
   "line" : 2,
   "elements" : [ {
-    "start_timestamp" : "2023-03-19T07:36:27.759Z",
-    "line" : 7,
+    "start_timestamp" : "2023-03-19T08:18:53.174Z",
+    "line" : 6,
     "name" : "Google 2 tests",
     "description" : "",
-    "id" : "feature-1;google-2-tests",
+    "id" : "feature-2;google-2-tests",
     "after" : [ {
       "result" : {
-        "duration" : 1138183300,
+        "duration" : 1106821400,
         "status" : "passed"
       },
       "match" : {
@@ -19,17 +19,17 @@
     "keyword" : "Scenario",
     "steps" : [ {
       "result" : {
-        "duration" : 19356238900,
+        "duration" : 32624449600,
         "status" : "passed"
       },
-      "line" : 8,
+      "line" : 7,
       "name" : "User is on google Home page",
       "match" : {
         "location" : "appSteps.GoogleSteps.loginTest()"
       },
       "after" : [ {
         "result" : {
-          "duration" : 3984000,
+          "duration" : 13002300,
           "status" : "passed"
         },
         "match" : {
@@ -39,7 +39,90 @@
       "keyword" : "Given "
     }, {
       "result" : {
-        "duration" : 9633616300,
+        "duration" : 13106114700,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User enters search \"junit\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "\"junit\"",
+          "offset" : 19
+        } ],
+        "location" : "appSteps.GoogleSteps.goToHomePage(java.lang.String)"
+      },
+      "after" : [ {
+        "result" : {
+          "duration" : 153800,
+          "status" : "passed"
+        },
+        "match" : {
+          "location" : "appSteps.TestHooks.addScreenshot(io.cucumber.java.Scenario)"
+        }
+      } ],
+      "keyword" : "When "
+    } ],
+    "tags" : [ {
+      "name" : "@demo"
+    }, {
+      "name" : "@google"
+    } ]
+  } ],
+  "name" : "Feature 2",
+  "description" : "  I want to use this template for my feature file",
+  "id" : "feature-2",
+  "keyword" : "Feature",
+  "uri" : "file:src/test/resources/features/demo2.feature",
+  "tags" : [ {
+    "name" : "@demo",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} , {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2023-03-19T08:18:53.172Z",
+    "line" : 7,
+    "name" : "Google 2 tests",
+    "description" : "",
+    "id" : "feature-1;google-2-tests",
+    "after" : [ {
+      "result" : {
+        "duration" : 1325563000,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "appSteps.TestHooks.tearDown()"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 32711692100,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "User is on google Home page",
+      "match" : {
+        "location" : "appSteps.GoogleSteps.loginTest()"
+      },
+      "after" : [ {
+        "result" : {
+          "duration" : 4991400,
+          "status" : "passed"
+        },
+        "match" : {
+          "location" : "appSteps.TestHooks.addScreenshot(io.cucumber.java.Scenario)"
+        }
+      } ],
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 12744746700,
         "status" : "passed"
       },
       "line" : 9,
@@ -53,6 +136,7 @@
       },
       "after" : [ {
         "result" : {
+          "duration" : 1008900,
           "status" : "passed"
         },
         "match" : {

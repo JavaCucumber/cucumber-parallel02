@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="Test Suite" skipped="0" tests="1" time="30.659">
+<testsuite failures="0" name="Test Suite" skipped="0" tests="1" time="47.974">
 
-<testcase classname="Feature 1" name="Google 2 tests" time="30.296">
+<testcase classname="Feature 2" name="Google 2 tests" time="47.211">
     
     <system-out>
         <![CDATA[
 Given User is on google Home page...........................................passed
-When User enters search "cuke cuke".........................................passed
+When User enters search "junit".............................................passed
 ]]>
     </system-out>
     
