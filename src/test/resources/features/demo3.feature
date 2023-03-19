@@ -6,3 +6,8 @@ Feature: Feature 3
   Scenario: Google 3 tests
     Given User is on google Home page
     When User enters search "github action pages"
+    
+ @google
+  Scenario: Google 4 tests
+    Given User is on google Home page
+    When User enters search "github tutorials"
