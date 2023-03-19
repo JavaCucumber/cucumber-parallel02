@@ -1,7 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: courgette.api.junit.Courgette
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.058 s <<< FAILURE! - in courgette.api.junit.Courgette
-courgette.api.junit.Courgette.Feature 1  Time elapsed: 0.001 s  <<< ERROR!
-courgette.runtime.CourgetteTestFailureException: Feature 1 failed.
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s - in courgette.api.junit.Courgette

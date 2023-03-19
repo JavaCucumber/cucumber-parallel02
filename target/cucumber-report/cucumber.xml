@@ -1,36 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="Test Suite" skipped="0" tests="3" time="58.946">
+<testsuite failures="0" name="Test Suite" skipped="0" tests="1" time="47.904">
 
-<testcase classname="Feature 1" name="Google 2 tests" time="25.973">
+<testcase classname="Feature 1" name="Google 2 tests" time="47.007">
     
     <system-out>
         <![CDATA[
 Given User is on google Home page...........................................passed
 When User enters search "cuke cuke".........................................passed
-]]>
-    </system-out>
-    
-</testcase>
-
-<testcase classname="Feature 1" name="fail tests" time="12.044">
-    
-    <failure/>
-    
-    <system-out>
-        <![CDATA[
-Given user navigates "https://careerkarma.com/" to url......................passed
-When clicks on signin link..................................................undefined
-]]>
-    </system-out>
-    
-</testcase>
-
-<testcase classname="Feature 2" name="Google 2 tests" time="20.106">
-    
-    <system-out>
-        <![CDATA[
-Given User is on google Home page...........................................passed
-When User enters search "junit".............................................passed
 ]]>
     </system-out>
     

@@ -53,11 +53,32 @@ jobs:
       #~ with:
           #~ branch: gh-pages
           #~ folder: ./target/cucumber-report/cucumber.html
-
-    - name: Report
-      uses: JamesIves/github-pages-deploy-action@4.1.5
+     
+    - name: Test marketplace action
+      uses: PavanMudigonda/allure-html-reporter-github-pages@v1.0
+      if: always()
+      id: allure-report
       with:
-          branch: gh-pages
           token: ${{ secrets.GITHUB_TOKEN }}
-          folder: ./target/cucumber-report/    
+          workflow_id: main.yml
+          allure_results: target/allure-results
+          gh_pages: gh-pages
+     
+     - name: Publish Github Pages
+        if: ${{ always() }}
+        uses: peaceiris/actions-gh-pages@v3.8.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: target/allure-results. # Previous Step provides output folder "allure-history" this needs to be uploaded to Github Pages
+          keep_files: true 
+     
+     
+     
+    #~ - name: Report
+      #~ uses: JamesIves/github-pages-deploy-action@4.1.5
+      #~ with:
+          #~ branch: gh-pages
+          #~ token: ${{ secrets.GITHUB_TOKEN }}
+          #~ folder: ./target/cucumber-report/    
      
