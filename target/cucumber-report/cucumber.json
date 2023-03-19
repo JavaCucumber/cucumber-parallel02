@@ -1,14 +1,14 @@
 [ {
   "line" : 2,
   "elements" : [ {
-    "start_timestamp" : "2023-03-19T06:50:05.302Z",
+    "start_timestamp" : "2023-03-19T07:13:55.402Z",
     "line" : 7,
     "name" : "Google 2 tests",
     "description" : "",
     "id" : "feature-1;google-2-tests",
     "after" : [ {
       "result" : {
-        "duration" : 1826570000,
+        "duration" : 1214620700,
         "status" : "passed"
       },
       "match" : {
@@ -19,7 +19,7 @@
     "keyword" : "Scenario",
     "steps" : [ {
       "result" : {
-        "duration" : 27164919800,
+        "duration" : 29000786000,
         "status" : "passed"
       },
       "line" : 8,
@@ -29,7 +29,7 @@
       },
       "after" : [ {
         "result" : {
-          "duration" : 24209800,
+          "duration" : 2990600,
           "status" : "passed"
         },
         "match" : {
@@ -39,7 +39,7 @@
       "keyword" : "Given "
     }, {
       "result" : {
-        "duration" : 17625407100,
+        "duration" : 9704448900,
         "status" : "passed"
       },
       "line" : 9,
@@ -53,7 +53,6 @@
       },
       "after" : [ {
         "result" : {
-          "duration" : 1019700,
           "status" : "passed"
         },
         "match" : {

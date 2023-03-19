@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="Test Suite" skipped="0" tests="1" time="47.904">
+<testsuite failures="0" name="Test Suite" skipped="0" tests="1" time="40.754">
 
-<testcase classname="Feature 1" name="Google 2 tests" time="47.007">
+<testcase classname="Feature 1" name="Google 2 tests" time="40.28">
     
     <system-out>
         <![CDATA[

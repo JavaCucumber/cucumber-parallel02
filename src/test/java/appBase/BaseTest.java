@@ -19,6 +19,9 @@ public class BaseTest {
 
 			WebDriverManager.chromedriver().setup();
 			ChromeOptions chromeOptions = new ChromeOptions();
+			chromeOptions.addArguments("--no-sandbox");
+			chromeOptions.addArguments("--disable-dev-shm-usage");
+			chromeOptions.addArguments("--headless");
 			chromeOptions.addArguments("--disable-notifications");
 			chromeOptions.addArguments("--remote-allow-origins=*");
 			chromeOptions.addArguments("--log-level=3");
